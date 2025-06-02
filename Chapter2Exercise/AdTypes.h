@@ -24,10 +24,7 @@ namespace Types{
         std::int32_t Speed;
         std::int32_t rDistance; // Relative Distance
 
-        VehicleType(std::int32_t id,
-                Types::LaneAssociationType lane,
-                std::int32_t speed,
-                std::int32_t rdistance)
+        VehicleType(std::int32_t id,Types::LaneAssociationType lane,std::int32_t speed,std::int32_t rdistance)
             : Id(id)
             , Lane(lane)
             , Speed(speed)
