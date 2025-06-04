@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Abidin/cppCourse/Chapter3",
-      "program": "c:/Users/Abidin/cppCourse/Chapter3/build/Debug/outDebug",
+      "cwd": "c:/Users/Abidin/cppCourse/Exercise",
+      "program": "c:/Users/Abidin/cppCourse/Exercise/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

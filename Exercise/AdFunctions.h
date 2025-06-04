@@ -17,11 +17,13 @@ namespace Ad
     namespace Data
     {
         Ad::Types::VehicleType init_ego_vehicle();
+        Ad::Types::NeighbourVehiclesType init_vehicles();
     }
 
     namespace Visualize
     {
-        void print_vehicle(const Ad::Types::VehicleType vehicle);
+        void print_vehicle(const Ad::Types::VehicleType& vehicle);
+        void print_neighbour_vehicles(const Ad::Types::NeighbourVehiclesType& vehicles);
     }
 
 
