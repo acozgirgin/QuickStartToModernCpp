@@ -8,10 +8,8 @@
 
 static std::int32_t INDEX_COUNT = 0 ;
 static std::int32_t COPY_CONSTRUCTOR_HIT_COUNT = 0;
-static std::int32_t MEMORY_ALLOCATION_COUNT = 0;
 static std::size_t LAST_LENGTH = 0;
 static std::size_t PERSON_CAPACITY = 1000;
-static std::size_t CAPACITY_MARGIN = 10;
 
 struct Person
 {
@@ -61,7 +59,7 @@ void try_add_person(std::vector<Person>& persons , Person& person)
 }
 
 
-int main()
+int vectors2()
 {
     //10 tane aynı elemanla init ettik person vector --> Person object copied 10 times !!
     //push_back() ile vectore ekleme yaptıgımızdada copy constructor calısıyor --> gereksiz kopyalama var !
